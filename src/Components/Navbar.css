@@ -1,0 +1,21 @@
+.NavBar {
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.NavButtons {
+    padding: 9px;
+    margin: -5px 30px -5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 19px;
+    color: rgb(249, 249, 249);
+    /* -webkit-text-stroke: 0.5px rgb(245, 165, 196); */
+    font-family: bodoni, serif;
+}
+.NavButtons:hover {
+    border-radius: 20%;
+    border: dashed white;
+}
