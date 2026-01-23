@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Research from './Pages/Research';
 import Projects from './Pages/Projects';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 /*
 Link: creates navigation link that update the <URL>
@@ -15,11 +14,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/research' element={<Research />} />
-        <Route path='/projects' element={<Projects />} />
-      </Routes>
+      <div className="pageContent">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/research' element={<Research />} />
+          <Route path='/projects' element={<Projects />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   )
 }

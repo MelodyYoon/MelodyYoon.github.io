@@ -1,0 +1,79 @@
+.researchIntro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    padding: 0px 0px 10px 0px;
+    margin: 0 auto 30px;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.turbineImage {
+    display: block;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 40px auto 5px;;
+}
+.researchGrid {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.researchItem {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px rgb(194, 194, 194);
+    padding: 20px;
+    margin: 15px 30px 15px;
+    border-radius: 15px;
+}
+
+.researchImage {
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+}
+.imageButton {
+    border: none;
+    cursor: pointer;
+    background-color: #A8dcab;
+    width: 200px;;
+    height: 250px;
+    margin: auto;
+}
+.imageButton:hover {
+    transform: scale(1.02);
+}
+.descriptionShell {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.researchTitle {
+    font-size: 30px;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.researchDescription {
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: rgb(74, 74, 74);
+
+}
+.seperator {
+    margin: 0 15px;
+
+}
