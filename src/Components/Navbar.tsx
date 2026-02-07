@@ -7,7 +7,7 @@ function Navbar() {
         <div className="NavBar">
             <button className="NavButtons" onClick={() => navigate('/')}>Home</button>
             <button className="NavButtons" onClick={() => navigate('/research')}>Research</button>
-            <button className="NavButtons" onClick={() => navigate('/projects')}>Projects</button>
+            {/* <button className="NavButtons" onClick={() => navigate('/projects')}>Projects</button> */}
         </div> 
     );
 } export default Navbar;
